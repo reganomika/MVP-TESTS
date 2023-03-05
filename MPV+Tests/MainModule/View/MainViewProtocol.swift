@@ -8,5 +8,6 @@
 import Foundation
 
 protocol MainViewProtocol: AnyObject {
-    func setGreeting(greeting: String)
+    func success()
+    func failure(error: Error)
 }

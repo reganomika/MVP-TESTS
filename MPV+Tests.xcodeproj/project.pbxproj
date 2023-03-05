@@ -16,13 +16,19 @@
 		FA64AFEC29B4E0A400797A91 /* MPV_TestsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA64AFEB29B4E0A400797A91 /* MPV_TestsTests.swift */; };
 		FA64AFF629B4E0A400797A91 /* MPV_TestsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA64AFF529B4E0A400797A91 /* MPV_TestsUITests.swift */; };
 		FA64AFF829B4E0A400797A91 /* MPV_TestsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA64AFF729B4E0A400797A91 /* MPV_TestsUITestsLaunchTests.swift */; };
-		FA64B00529B4E0C500797A91 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA64B00429B4E0C500797A91 /* Person.swift */; };
+		FA64B00529B4E0C500797A91 /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA64B00429B4E0C500797A91 /* Comment.swift */; };
 		FA64B00729B4E0E700797A91 /* MainPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA64B00629B4E0E700797A91 /* MainPresenter.swift */; };
 		FA64B00D29B4E51900797A91 /* MainViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA64B00C29B4E51900797A91 /* MainViewProtocol.swift */; };
 		FA64B00F29B4E53000797A91 /* MainViewPresenterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA64B00E29B4E53000797A91 /* MainViewPresenterProtocol.swift */; };
 		FA64B01129B4E56D00797A91 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA64B01029B4E56D00797A91 /* MainViewController.xib */; };
 		FA64B01329B4E67E00797A91 /* ModuleBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA64B01229B4E67E00797A91 /* ModuleBuilder.swift */; };
 		FA64B01529B51FE700797A91 /* MainPresenterTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA64B01429B51FE700797A91 /* MainPresenterTest.swift */; };
+		FA64B01729B5271200797A91 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA64B01629B5271200797A91 /* NetworkService.swift */; };
+		FA64B01D29B52C1200797A91 /* DetailViewPresenterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA64B01C29B52C1200797A91 /* DetailViewPresenterProtocol.swift */; };
+		FA64B01F29B52C4000797A91 /* DetailViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA64B01E29B52C4000797A91 /* DetailViewPresenter.swift */; };
+		FA64B02129B52C6100797A91 /* DetailViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA64B02029B52C6100797A91 /* DetailViewProtocol.swift */; };
+		FA64B02429B52DA800797A91 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA64B02229B52DA800797A91 /* DetailViewController.swift */; };
+		FA64B02529B52DA800797A91 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA64B02329B52DA800797A91 /* DetailViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,13 +62,19 @@
 		FA64AFF129B4E0A400797A91 /* MPV+TestsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MPV+TestsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA64AFF529B4E0A400797A91 /* MPV_TestsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MPV_TestsUITests.swift; sourceTree = "<group>"; };
 		FA64AFF729B4E0A400797A91 /* MPV_TestsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MPV_TestsUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		FA64B00429B4E0C500797A91 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		FA64B00429B4E0C500797A91 /* Comment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
 		FA64B00629B4E0E700797A91 /* MainPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPresenter.swift; sourceTree = "<group>"; };
 		FA64B00C29B4E51900797A91 /* MainViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewProtocol.swift; sourceTree = "<group>"; };
 		FA64B00E29B4E53000797A91 /* MainViewPresenterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewPresenterProtocol.swift; sourceTree = "<group>"; };
 		FA64B01029B4E56D00797A91 /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
 		FA64B01229B4E67E00797A91 /* ModuleBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuleBuilder.swift; sourceTree = "<group>"; };
 		FA64B01429B51FE700797A91 /* MainPresenterTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPresenterTest.swift; sourceTree = "<group>"; };
+		FA64B01629B5271200797A91 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		FA64B01C29B52C1200797A91 /* DetailViewPresenterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewPresenterProtocol.swift; sourceTree = "<group>"; };
+		FA64B01E29B52C4000797A91 /* DetailViewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewPresenter.swift; sourceTree = "<group>"; };
+		FA64B02029B52C6100797A91 /* DetailViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewProtocol.swift; sourceTree = "<group>"; };
+		FA64B02229B52DA800797A91 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		FA64B02329B52DA800797A91 /* DetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,14 +125,16 @@
 		FA64AFD329B4E0A300797A91 /* MPV+Tests */ = {
 			isa = PBXGroup;
 			children = (
-				FA64B00829B4E0ED00797A91 /* Main */,
+				FA64B01929B52BEE00797A91 /* DetailModule */,
+				FA64B00829B4E0ED00797A91 /* MainModule */,
 				FA64AFD429B4E0A300797A91 /* AppDelegate.swift */,
 				FA64AFD629B4E0A300797A91 /* SceneDelegate.swift */,
+				FA64B01229B4E67E00797A91 /* ModuleBuilder.swift */,
 				FA64AFDA29B4E0A300797A91 /* Main.storyboard */,
 				FA64AFDD29B4E0A400797A91 /* Assets.xcassets */,
 				FA64AFDF29B4E0A400797A91 /* LaunchScreen.storyboard */,
 				FA64AFE229B4E0A400797A91 /* Info.plist */,
-				FA64B01229B4E67E00797A91 /* ModuleBuilder.swift */,
+				FA64B01829B5272300797A91 /* ServiceLayer */,
 			);
 			path = "MPV+Tests";
 			sourceTree = "<group>";
@@ -143,20 +157,20 @@
 			path = "MPV+TestsUITests";
 			sourceTree = "<group>";
 		};
-		FA64B00829B4E0ED00797A91 /* Main */ = {
+		FA64B00829B4E0ED00797A91 /* MainModule */ = {
 			isa = PBXGroup;
 			children = (
 				FA64B00B29B4E4F600797A91 /* Presenter */,
 				FA64B00A29B4E4F100797A91 /* View */,
 				FA64B00929B4E4EA00797A91 /* Model */,
 			);
-			path = Main;
+			path = MainModule;
 			sourceTree = "<group>";
 		};
 		FA64B00929B4E4EA00797A91 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				FA64B00429B4E0C500797A91 /* Person.swift */,
+				FA64B00429B4E0C500797A91 /* Comment.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -178,6 +192,42 @@
 				FA64B00E29B4E53000797A91 /* MainViewPresenterProtocol.swift */,
 			);
 			path = Presenter;
+			sourceTree = "<group>";
+		};
+		FA64B01829B5272300797A91 /* ServiceLayer */ = {
+			isa = PBXGroup;
+			children = (
+				FA64B01629B5271200797A91 /* NetworkService.swift */,
+			);
+			path = ServiceLayer;
+			sourceTree = "<group>";
+		};
+		FA64B01929B52BEE00797A91 /* DetailModule */ = {
+			isa = PBXGroup;
+			children = (
+				FA64B01B29B52C0500797A91 /* View */,
+				FA64B01A29B52BFE00797A91 /* Presenter */,
+			);
+			path = DetailModule;
+			sourceTree = "<group>";
+		};
+		FA64B01A29B52BFE00797A91 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				FA64B01C29B52C1200797A91 /* DetailViewPresenterProtocol.swift */,
+				FA64B01E29B52C4000797A91 /* DetailViewPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		FA64B01B29B52C0500797A91 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FA64B02029B52C6100797A91 /* DetailViewProtocol.swift */,
+				FA64B02229B52DA800797A91 /* DetailViewController.swift */,
+				FA64B02329B52DA800797A91 /* DetailViewController.xib */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -286,6 +336,7 @@
 			files = (
 				FA64AFE129B4E0A400797A91 /* LaunchScreen.storyboard in Resources */,
 				FA64AFDE29B4E0A400797A91 /* Assets.xcassets in Resources */,
+				FA64B02529B52DA800797A91 /* DetailViewController.xib in Resources */,
 				FA64AFDC29B4E0A300797A91 /* Main.storyboard in Resources */,
 				FA64B01129B4E56D00797A91 /* MainViewController.xib in Resources */,
 			);
@@ -312,14 +363,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA64B02429B52DA800797A91 /* DetailViewController.swift in Sources */,
 				FA64B00729B4E0E700797A91 /* MainPresenter.swift in Sources */,
 				FA64AFD929B4E0A300797A91 /* MainViewController.swift in Sources */,
 				FA64AFD529B4E0A300797A91 /* AppDelegate.swift in Sources */,
 				FA64B01329B4E67E00797A91 /* ModuleBuilder.swift in Sources */,
+				FA64B01729B5271200797A91 /* NetworkService.swift in Sources */,
 				FA64B00F29B4E53000797A91 /* MainViewPresenterProtocol.swift in Sources */,
 				FA64B00D29B4E51900797A91 /* MainViewProtocol.swift in Sources */,
-				FA64B00529B4E0C500797A91 /* Person.swift in Sources */,
+				FA64B02129B52C6100797A91 /* DetailViewProtocol.swift in Sources */,
+				FA64B01D29B52C1200797A91 /* DetailViewPresenterProtocol.swift in Sources */,
+				FA64B00529B4E0C500797A91 /* Comment.swift in Sources */,
 				FA64AFD729B4E0A300797A91 /* SceneDelegate.swift in Sources */,
+				FA64B01F29B52C4000797A91 /* DetailViewPresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

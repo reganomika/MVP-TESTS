@@ -10,14 +10,27 @@ import UIKit
 
 protocol Builder {
     static func createMain() -> UIViewController
+    static func createDetail(comment: Comment?) -> UIViewController
 }
 
 class ModuleBuilder: Builder {
     
     static func createMain() -> UIViewController {
-        let model = Person(firstName: "David", lastName: "Blane")
         let view = MainViewController()
-        let presenter = MainPresenter(view: view, person: model)
+        let service = NetworkService()
+        let presenter = MainPresenter(view: view, networkService: service)
+        view.presenter = presenter
+        return view
+    }
+
+    static func createDetail(comment: Comment?) -> UIViewController {
+        let view = DetailViewController()
+        let service = NetworkService()
+        let presenter = DetailViewPresenter(
+            view: view,
+            networkService: service,
+            comment: comment
+        )
         view.presenter = presenter
         return view
     }
