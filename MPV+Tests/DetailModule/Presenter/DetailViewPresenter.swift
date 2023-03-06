@@ -11,19 +11,26 @@ class DetailViewPresenter: DetailViewPresenterProtocol {
 
     weak var view: DetailViewProtocol?
     let networkService: NetworkServiceProtocol
+    var router: RouterProtocol
     var comment: Comment?
 
     required init(
         view: DetailViewProtocol,
         networkService: NetworkServiceProtocol,
+        router: RouterProtocol,
         comment: Comment?
     ) {
         self.view = view
         self.networkService = networkService
         self.comment = comment
+        self.router = router
+    }
+
+    func tap() {
+        router.popToRoot()
     }
 
     func setComment() {
-        self.view?.setComment(comment: comment)
+        view?.setComment(comment: comment)
     }
 }

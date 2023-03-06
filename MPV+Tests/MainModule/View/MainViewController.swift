@@ -54,7 +54,8 @@ extension MainViewController: UITableViewDataSource {
 
 extension MainViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        let vc = ModuleBuilder.createDetail(comment: presenter.comments?[indexPath.row])
-        navigationController?.pushViewController(vc, animated: true)
+        let comment = presenter.comments?[indexPath.row]
+        presenter.tapOnTheComment(comment: comment)
     }
 }
+ 

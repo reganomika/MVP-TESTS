@@ -20,19 +20,36 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Th-cp-Dvm">
-                    <rect key="frame" x="0.0" y="59" width="393" height="759"/>
+                    <rect key="frame" x="20" y="276" width="353" height="300"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="300" id="Ogj-9Y-7eX"/>
+                    </constraints>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lBb-0S-jCV">
+                    <rect key="frame" x="20" y="596" width="353" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="JFS-we-rCK"/>
+                    </constraints>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="plain" title="Back"/>
+                    <connections>
+                        <action selector="tapAction:" destination="-1" eventType="touchUpInside" id="NfD-Xb-rPp"/>
+                    </connections>
+                </button>
             </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
             <constraints>
-                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="9Th-cp-Dvm" secondAttribute="trailing" id="EHl-IF-nBm"/>
-                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="9Th-cp-Dvm" secondAttribute="bottom" id="YaM-l2-pYv"/>
-                <constraint firstItem="9Th-cp-Dvm" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="pFa-IT-jV9"/>
-                <constraint firstItem="9Th-cp-Dvm" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="tas-Ce-N6O"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="lBb-0S-jCV" secondAttribute="trailing" constant="20" id="25M-dn-59g"/>
+                <constraint firstItem="9Th-cp-Dvm" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="4wQ-SS-Wxu"/>
+                <constraint firstItem="9Th-cp-Dvm" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="6Hc-SD-Spa"/>
+                <constraint firstItem="9Th-cp-Dvm" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="QQC-GN-ihb"/>
+                <constraint firstItem="lBb-0S-jCV" firstAttribute="top" secondItem="9Th-cp-Dvm" secondAttribute="bottom" constant="20" id="eeW-4w-cyM"/>
+                <constraint firstItem="lBb-0S-jCV" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="nnX-NF-DoK"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="9Th-cp-Dvm" secondAttribute="trailing" constant="20" id="uNt-Gg-tDE"/>
             </constraints>
             <point key="canvasLocation" x="138" y="21"/>
         </view>

@@ -9,6 +9,11 @@ import Foundation
 
 protocol MainViewPresenterProtocol: AnyObject {
     var comments: [Comment]? { get set }
-    init(view: MainViewProtocol, networkService: NetworkServiceProtocol)
+    init(
+        view: MainViewProtocol,
+        networkService: NetworkServiceProtocol,
+        router: RouterProtocol
+    )
     func getComments()
+    func tapOnTheComment(comment: Comment?)
 }

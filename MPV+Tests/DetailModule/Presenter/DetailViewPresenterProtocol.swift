@@ -11,8 +11,10 @@ protocol DetailViewPresenterProtocol: AnyObject {
     init(
         view: DetailViewProtocol,
         networkService: NetworkServiceProtocol,
+        router: RouterProtocol,
         comment: Comment?
     )
 
+    func tap()
     func setComment()
 }
